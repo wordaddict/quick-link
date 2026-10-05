@@ -5,7 +5,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const publicDirectory = fileURLToPath(new URL('./public/', import.meta.url));
-const port = Number.parseInt(process.env.PORT ?? '3000', 10);
+const port = Number.parseInt(process.env.PORT ?? '3004', 10);
 
 const contentTypes = new Map([
   ['.css', 'text/css; charset=utf-8'],
