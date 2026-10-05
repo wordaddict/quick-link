@@ -70,9 +70,10 @@ const server = createServer(async (request, response) => {
     const extension = path.extname(filePath).toLowerCase();
     response.statusCode = 200;
     response.setHeader('Content-Type', contentTypes.get(extension) ?? 'application/octet-stream');
+    const shouldRevalidate = extension === '.html' || extension === '.css';
     response.setHeader(
       'Cache-Control',
-      extension === '.html' ? 'no-cache' : 'public, max-age=86400, stale-while-revalidate=604800',
+      shouldRevalidate ? 'no-cache' : 'public, max-age=86400, stale-while-revalidate=604800',
     );
     response.setHeader('Content-Length', fileStats.size);
 
