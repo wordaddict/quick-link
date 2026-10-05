@@ -6,7 +6,7 @@ const description =
   'Announcements, service information, giving, and ways to connect with Celebration Church International DMV.';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://cci-dmv-hub.abuzz-shell-5491.chatgpt.site'),
+  metadataBase: new URL('https://cci-dmv-hub.wordaddict.chatgpt.site'),
   title,
   description,
   openGraph: {
