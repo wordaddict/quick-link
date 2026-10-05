@@ -36,8 +36,7 @@ export default function Home() {
 
       <header className="site-header">
         <a className="brand-lockup" href="#top" aria-label="CCI DMV home">
-          <img src="/cci-america-logo.svg" alt="Celebration Church International America" />
-          <span>DMV</span>
+          <img src="/cci-dmv-logo.png" alt="Celebration Church International DMV" />
         </a>
         <a className="header-link" href="https://dmv.joincci.org/" target="_blank" rel="noreferrer">
           About us <span aria-hidden="true">↗</span>

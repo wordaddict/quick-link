@@ -58,23 +58,12 @@ a {
 .brand-lockup {
   display: flex;
   align-items: center;
-  gap: 13px;
 }
 
 .brand-lockup img {
   width: 188px;
   height: auto;
   display: block;
-}
-
-.brand-lockup span {
-  background: var(--ink);
-  color: white;
-  border-radius: 999px;
-  padding: 7px 9px 6px;
-  font-size: 10px;
-  font-weight: 800;
-  letter-spacing: 0.15em;
 }
 
 .header-link {
@@ -515,15 +504,6 @@ footer span:last-child {
 
   .brand-lockup img {
     width: 130px;
-  }
-
-  .brand-lockup {
-    gap: 8px;
-  }
-
-  .brand-lockup span {
-    padding: 6px 8px 5px;
-    font-size: 8px;
   }
 
   .header-link {
